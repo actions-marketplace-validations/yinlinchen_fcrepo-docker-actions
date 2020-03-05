@@ -1,0 +1,10 @@
+# action.yml
+name: 'Fedora 5 docker image'
+description: 'Build Fedora 5 docker image and build a package'
+author: 'Yinlin Chen'
+branding:
+  icon: 'package'
+  color: 'blue'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
